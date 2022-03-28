@@ -1,5 +1,5 @@
 <TetrasSRParams>
-    
+
     <SRVersion>SR_X_SDM_V2.0.1.2490_M1.66_j20s</SRVersion>
 
     <SRParams>
@@ -789,6 +789,7 @@
                         <Mutable_Dither_Amount>2</Mutable_Dither_Amount>
                     </ImageDither>
                 </ParamItem>
+
                 <ParamItem>
                     <MatchMaxIso>90</MatchMaxIso>
                     <NoiseMapIso>
@@ -955,6 +956,7 @@
                         <Mutable_Dither_Amount>1</Mutable_Dither_Amount>
                     </ImageDither>
                 </ParamItem>
+
                 <ParamItem>
                     <MatchMaxIso>400</MatchMaxIso>
                     <NoiseMapIso>
@@ -2299,13 +2301,13 @@
                 <ParamItem>
                     <MatchMaxIso>120</MatchMaxIso>
                     <NoiseMapIso>
-                        <Mutable_NoiseAdaptiveness>0.5</Mutable_NoiseAdaptiveness>
-                        <Mutable_MinNoiseIso>0.10</Mutable_MinNoiseIso><!-- iso mask lower bound -->
-                        <Mutable_MaxNoiseIso>6.0</Mutable_MaxNoiseIso><!-- iso mask upper bound -->
-                        <Mutable_LscGainSigma>200.00</Mutable_LscGainSigma><!-- lsc map sigma -->
-                        <Mutable_LscGainMax>1.00</Mutable_LscGainMax><!-- lsc map global max -->
-                        <Mutable_NoiseIso_UpperThreshold>15.00</Mutable_NoiseIso_UpperThreshold><!--  -->
-                    </NoiseMapIso>
+						<Mutable_NoiseAdaptiveness>0.5</Mutable_NoiseAdaptiveness>
+						<Mutable_MinNoiseIso>0.10</Mutable_MinNoiseIso><!-- iso mask lower bound -->
+						<Mutable_MaxNoiseIso>6.0</Mutable_MaxNoiseIso><!-- iso mask upper bound -->
+						<Mutable_LscGainSigma>200.00</Mutable_LscGainSigma><!-- lsc map sigma -->
+						<Mutable_LscGainMax>1.00</Mutable_LscGainMax><!-- lsc map global max -->
+						<Mutable_NoiseIso_UpperThreshold>15.00</Mutable_NoiseIso_UpperThreshold><!--  -->
+					</NoiseMapIso>
                     <ParamAlignment>
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
@@ -2351,16 +2353,17 @@
                         <Mutable_Dither_Amount>1</Mutable_Dither_Amount>
                     </ImageDither>
                 </ParamItem>
+
                 <ParamItem>
                     <MatchMaxIso>150</MatchMaxIso>
                     <NoiseMapIso>
-                        <Mutable_NoiseAdaptiveness>0.50</Mutable_NoiseAdaptiveness>
-                        <Mutable_MinNoiseIso>0.10</Mutable_MinNoiseIso><!-- iso mask lower bound -->
-                        <Mutable_MaxNoiseIso>5.00</Mutable_MaxNoiseIso><!-- iso mask upper bound -->
-                        <Mutable_LscGainSigma>200.00</Mutable_LscGainSigma><!-- lsc map sigma -->
-                        <Mutable_LscGainMax>1.00</Mutable_LscGainMax><!-- lsc map global max -->
-                        <Mutable_NoiseIso_UpperThreshold>15.00</Mutable_NoiseIso_UpperThreshold><!--  -->
-                    </NoiseMapIso>
+						<Mutable_NoiseAdaptiveness>0.50</Mutable_NoiseAdaptiveness>
+						<Mutable_MinNoiseIso>0.10</Mutable_MinNoiseIso><!-- iso mask lower bound -->
+						<Mutable_MaxNoiseIso>5.00</Mutable_MaxNoiseIso><!-- iso mask upper bound -->
+						<Mutable_LscGainSigma>200.00</Mutable_LscGainSigma><!-- lsc map sigma -->
+						<Mutable_LscGainMax>1.00</Mutable_LscGainMax><!-- lsc map global max -->
+						<Mutable_NoiseIso_UpperThreshold>15.00</Mutable_NoiseIso_UpperThreshold><!--  -->
+					</NoiseMapIso>
                     <ParamAlignment>
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
@@ -2388,19 +2391,19 @@
                         <Mutable_Edge_MaskAmount>0</Mutable_Edge_MaskAmount>
                     </DetailYDnoise>
                     <UVDnoise>
-                        <Mutable_LevelStrength1>0.78</Mutable_LevelStrength1>
-                        <Mutable_LevelStrength2>0.66</Mutable_LevelStrength2>
-                        <Mutable_LevelStrength3>0.42</Mutable_LevelStrength3>
-                        <Mutable_LevelStrength4>0.30</Mutable_LevelStrength4>
-                        <Mutable_LevelStrength5>0.30</Mutable_LevelStrength5>
-                        <Mutable_MotionLevelStrength1>1.50</Mutable_MotionLevelStrength1>
-                        <Mutable_MotionLevelStrength2>0.66</Mutable_MotionLevelStrength2>
-                        <Mutable_MotionLevelStrength3>0.78</Mutable_MotionLevelStrength3>
-                        <Mutable_MotionLevelStrength4>0.30</Mutable_MotionLevelStrength4>
-                        <Mutable_MotionLevelStrength5>0.30</Mutable_MotionLevelStrength5>
+                         <Mutable_LevelStrength1>0.78</Mutable_LevelStrength1>
+                         <Mutable_LevelStrength2>0.66</Mutable_LevelStrength2>
+                         <Mutable_LevelStrength3>0.42</Mutable_LevelStrength3>
+                         <Mutable_LevelStrength4>0.30</Mutable_LevelStrength4>
+                         <Mutable_LevelStrength5>0.30</Mutable_LevelStrength5>
+                         <Mutable_MotionLevelStrength1>1.50</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>0.66</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>0.78</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>0.30</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>0.30</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
-                        <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
+                         <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
                     </InnerDimension>
                     <ImageDither>
                         <Mutable_Dither_Amount>1</Mutable_Dither_Amount>
@@ -2409,13 +2412,13 @@
                 <ParamItem>
                     <MatchMaxIso>300</MatchMaxIso>
                     <NoiseMapIso>
-                        <Mutable_NoiseAdaptiveness>1.00</Mutable_NoiseAdaptiveness>
-                        <Mutable_MinNoiseIso>0.10</Mutable_MinNoiseIso><!-- iso mask lower bound -->
-                        <Mutable_MaxNoiseIso>3.00</Mutable_MaxNoiseIso><!-- iso mask upper bound -->
-                        <Mutable_LscGainSigma>200.00</Mutable_LscGainSigma><!-- lsc map sigma -->
-                        <Mutable_LscGainMax>1.00</Mutable_LscGainMax><!-- lsc map global max -->
-                        <Mutable_NoiseIso_UpperThreshold>15.00</Mutable_NoiseIso_UpperThreshold><!--  -->
-                    </NoiseMapIso>
+						<Mutable_NoiseAdaptiveness>1.00</Mutable_NoiseAdaptiveness>
+						<Mutable_MinNoiseIso>0.10</Mutable_MinNoiseIso><!-- iso mask lower bound -->
+						<Mutable_MaxNoiseIso>3.00</Mutable_MaxNoiseIso><!-- iso mask upper bound -->
+						<Mutable_LscGainSigma>200.00</Mutable_LscGainSigma><!-- lsc map sigma -->
+						<Mutable_LscGainMax>1.00</Mutable_LscGainMax><!-- lsc map global max -->
+						<Mutable_NoiseIso_UpperThreshold>15.00</Mutable_NoiseIso_UpperThreshold><!--  -->
+					</NoiseMapIso>
                     <ParamAlignment>
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
@@ -3074,6 +3077,8 @@
                         <Mutable_Dither_Amount>1</Mutable_Dither_Amount>
                     </ImageDither>
                 </ParamItem>
+
+
                 <ParamItem>
                     <MatchMaxIso>150</MatchMaxIso>
                     <NoiseMapIso>
