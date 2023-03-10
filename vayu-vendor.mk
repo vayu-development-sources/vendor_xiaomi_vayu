@@ -1091,8 +1091,8 @@ PRODUCT_PACKAGES += \
     adreno_graphics_driver \
     gpu_profiling_vulkan_layer \
     PowerOffAlarm \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
+    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     QtiTelephonyService \
     ims \
     qcrilmsgtunnel \
